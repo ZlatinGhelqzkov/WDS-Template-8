@@ -1,39 +1,39 @@
 /*##############################
 ############ RESET #############
 ##############################*/
-@import url(/resources/css/reset.css);
+@import url(./reset.css);
 
 
 
 /*##############################
 ########## TYPOGRAPHY ##########
 ##############################*/
-@import url(/resources/css/typograpghy/headings.css);
-@import url(/resources/css/typograpghy/links.css);
-@import url(/resources/css/typograpghy/paragraphs.css);
+@import url(./typograpghy/headings.css);
+@import url(./typograpghy/links.css);
+@import url(./typograpghy/paragraphs.css);
 
 
 
 /*##############################
 ########## COMPONENTS ##########
 ##############################*/
-@import url(/resources/css/components/grid.css);
-@import url(/resources/css/components/bg.css);
-@import url(/resources/css/components/buttons.css);
+@import url(./components/grid.css);
+@import url(./components/bg.css);
+@import url(./components/buttons.css);
 
 
 
 /*##############################
 ########## SECTIONS ##########
 ##############################*/
-@import url(/resources/css/sections/header.css);
-@import url(/resources/css/sections/intro.css);
-@import url(/resources/css/sections/offers.css);
-@import url(/resources/css/sections/news.css);
-@import url(/resources/css/sections/coming-soon.css);
-@import url(/resources/css/sections/stats.css);
-@import url(/resources/css/sections/member.css);
-@import url(/resources/css/sections/footer.css);
+@import url(./sections/header.css);
+@import url(./sections/intro.css);
+@import url(./sections/offers.css);
+@import url(./sections/news.css);
+@import url(./sections/coming-soon.css);
+@import url(./sections/stats.css);
+@import url(./sections/member.css);
+@import url(./sections/footer.css);
 
 
 
