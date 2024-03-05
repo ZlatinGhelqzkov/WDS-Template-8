@@ -1,0 +1,114 @@
+.header{
+    height: 75px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #f2f2f2;
+    filter: drop-shadow(1px 1.732px 3px rgba(8,8,8,0.2));
+    z-index: 10;
+}
+
+.header .wrapper{
+    height: 100%;
+}
+
+.header__inner{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav__item--group .header__nav-link i{
+    position: relative;
+    right: unset;
+    top: unset;
+    transform: none;
+}
+.nav__item--group a:nth-of-type(2){
+    margin: 0rem 2rem 0rem 2rem;
+}
+
+/*#############################
+########### BURGER ############
+#############################*/
+
+.header__burger {
+    display: block;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .burger-top-line,
+  .burger-bottom-line {
+    display: block;
+    width: 3rem;
+    height: 0.5rem;
+    border-radius: 1.5rem;
+    background: #e53935;
+    z-index: 10;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .burger-top-line {
+    margin-bottom: 5px;
+  }
+  
+  .clicked {
+    z-index: 1010;
+    transform: rotate(360deg); /* Twist-spin effect */
+  }
+  
+  .clicked .burger-top-line {
+    transform: translateY(100%) rotate(45deg);
+    transition: 0.2s ease-in-out;
+  }
+  
+  .clicked .burger-bottom-line {
+    transform: translateY(-100%) rotate(-45deg);
+    transition: 0.2s ease-in-out;
+  }
+
+.header__nav {
+    position: absolute;
+    right: -1px;
+    top: 0;
+    height: 100vh;
+    padding: 10rem 5rem 0rem 5rem;
+    background: rgba(8,8,8,0.95);
+    transform:translateX(100%);
+    transition: 0.2s ease-in-out;
+}
+
+.header__nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6.5rem;
+}
+
+.opened{
+    transform:translateX(0);
+}
+
+@media(min-width: 1024px){
+    .header__burger{
+        display: none;
+    }
+
+    .header__nav{
+    position: relative;
+    right: unset;
+    top: unset;
+    height: auto;
+    padding: 0;
+    background: none;
+    transform:translateX(0);
+    }
+
+    .header__nav-links{
+        flex-direction: row;
+    }
+  }
+

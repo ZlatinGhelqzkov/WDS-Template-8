@@ -1,0 +1,48 @@
+/*##############################
+############ RESET #############
+##############################*/
+@import url(/resources/css/reset.css);
+
+
+
+/*##############################
+########## TYPOGRAPHY ##########
+##############################*/
+@import url(/resources/css/typograpghy/headings.css);
+@import url(/resources/css/typograpghy/links.css);
+@import url(/resources/css/typograpghy/paragraphs.css);
+
+
+
+/*##############################
+########## COMPONENTS ##########
+##############################*/
+@import url(/resources/css/components/grid.css);
+@import url(/resources/css/components/bg.css);
+@import url(/resources/css/components/buttons.css);
+
+
+
+/*##############################
+########## SECTIONS ##########
+##############################*/
+@import url(/resources/css/sections/header.css);
+@import url(/resources/css/sections/intro.css);
+@import url(/resources/css/sections/offers.css);
+@import url(/resources/css/sections/news.css);
+@import url(/resources/css/sections/coming-soon.css);
+@import url(/resources/css/sections/stats.css);
+@import url(/resources/css/sections/member.css);
+@import url(/resources/css/sections/footer.css);
+
+
+
+:root{
+    --primary-gradient: linear-gradient(90deg, #e53935 0%, #bf1f25 100%);
+    --secondary-gradient: linear-gradient(0deg, #e53935 0%, #bf1f25 100%);
+    --hover-link-color: #bf1f25;
+    --red-text-color: #e53935;
+    --secondary-color: #58585a;
+    --footer-background-color: #58585a;
+}
+

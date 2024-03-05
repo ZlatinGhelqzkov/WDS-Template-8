@@ -1,0 +1,59 @@
+.wrapper{
+    position: relative;
+    max-width: 108rem;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+
+@media(min-width: 1200px){
+    .wrapper{
+        padding: 0;
+    }
+}
+.wrapper--small{
+    max-width: 85rem;
+}
+
+
+
+/*######################
+#### COLUMNS LAYOUT ####
+######################*/
+
+
+
+.col-2{
+    flex: 0 0 calc(48% - var(--gap));
+}
+
+.col-3{
+    flex: 0 0 calc(33.333% - var(--gap));
+}
+
+
+
+/*################################
+############ SPACINGS ############
+################################*/
+
+
+
+.padding-y-80{
+    padding: 8rem 0;
+}
+
+.padding-t7-b8{
+    padding: 7rem 0 8rem 0;
+}
+
+.padding-t8-b25{
+    padding: 8rem 0rem 25rem 0;
+}
+
+.padding-t8-b16{
+    padding: 8rem 0 16rem 0;
+}
+
+.footer-padding{
+    padding: 7.5rem 0 0 0;
+}

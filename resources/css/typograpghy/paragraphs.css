@@ -1,0 +1,31 @@
+p{
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+}
+
+.p--white{
+    color: #fff;
+}
+
+.p--white--small{
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #fff;
+    text-align: center;
+}
+
+.subtitle{
+    font-size: 2.1rem;
+    opacity: 0.9;
+    color: var(--secondary-color);
+}
+
+
+.word-break--hyphens{
+    hyphens: auto;
+    word-wrap: break-word;
+    /* For some browsers, you will need to specify the language for hyphens to work */
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+}

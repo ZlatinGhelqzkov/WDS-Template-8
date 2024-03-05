@@ -1,0 +1,52 @@
+
+/*#######################
+######## CSS RESET ######
+#######################*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Prompt', sans-serif;
+}
+
+main{
+  position: relative;
+  overflow-x: hidden;
+}
+
+section{
+  position: relative;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+  object-fit:contain;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}

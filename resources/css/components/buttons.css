@@ -1,0 +1,45 @@
+.button{
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1;
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    background: var(--primary-gradient);
+    padding: 2.3rem 4.5rem;
+    border-radius: 3.5rem;
+    transition: 0.2s ease-in-out;
+}
+
+.button:hover{
+    background: #e53935;
+    color: #fff;
+    box-shadow: 0px 0px 10px var(--hover-link-color);
+    animation-name: hover-animation;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes hover-animation{
+    from{
+        background: #e53935;
+
+    }
+    to{
+        background: #fff;
+        color: var(--hover-link-color);
+    }
+
+}
+
+.button--secondary{
+    background: #e53935;
+    padding: 2.7rem 4.5rem;
+    border-radius: 0.3rem;
+}
+
+.button--secondary--gradient{
+    background: var(--primary-gradient);
+
+}
